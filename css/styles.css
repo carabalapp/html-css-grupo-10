@@ -1,0 +1,59 @@
+/*  Estilos generales para el documento */
+body {
+    /* Tipo de fuente y tamaño */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  /* Margen y relleno */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de cabecera */
+header {
+    /* Fondo de color y texto en blanco */
+  background-color: #333;
+  color: #fff;
+  padding:  20px;
+  text-align: center;
+}
+
+/*  Estilos para la navegacion principal */
+nav ul {
+    /* Lista no ordenada sin puntos ni numeros */
+    list-style: none;
+    /* Margen y relleno */
+    margin: 0;
+    padding: 0;
+    /* Display muestra en linea para los elementos de la lista */
+    display: flex;
+}
+
+
+nav li {
+    /* Margen derecho para los elementos de la lista */
+    margin-right: 20px;
+}
+
+nav a {
+    /* Color de texto y sin subrayado */
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    /* Color de fondo */
+    background-color: #f7f7f7;
+    /* Margen, relleno y sombra */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
