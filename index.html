@@ -1,80 +1,146 @@
 <!-- Documento HTML5 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Metadatos del documento -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moda facil - Tienda de ropa en linea</title>
-    <meta name="description" content="Tienda de ropa en linea con la ultima moda para hombres y mujeres. Entregamos rapido y seguro.">
-    <meta name="keywords" content="ropa, moda, hombre, mujer, ropa de hombre, ropa de mujer, ropa de hombre de moda, ropa de mujer de moda">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Tienda de ropa en linea con la ultima moda para hombres y mujeres. Entregamos rapido y seguro."
+    />
+    <meta
+      name="keywords"
+      content="ropa, moda, hombre, mujer, ropa de hombre, ropa de mujer, ropa de hombre de moda, ropa de mujer de moda"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <!--  Cabecera de la pagina -->
-      <header id="cabecera">
-        <!-- Navegacion principal -->
-         <nav>
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="#">Hombres</a>
-                </li>
-                <li>
-                    <a href="#">Mujeres</a>
-                </li>
-                <li>
-                    <a href="#">Niños</a>
-                </li>
-                <li>
-                    <a href="#">Contacto</a>
-                </li>
-            </ul>
-         </nav>
-      </header>
-
-      <!-- Contenido principal de la pagina. -->
-      <div class="container">
-        <!-- Seccion de contenido de principal -->
-         <section>
-            <h1>Ultimas tendencias en moda</h1>
-            <p>Descubre las ultimas tendencias en moda para hombres y mujeres</p>
-            <img src="img/ropa_hombres.jpg" alt="Imagen de ropa para hombres">
-         </section>
-         <!-- Seccion secundaria -->
-         <section>
-           <h2>Ofertas especiales</h2>
-           <p>No te pierdas nuestras ofertas especiales</p>
-           <ul>
-               <li>
-                   <a href="#">Oferta 1: 20% de descuento en ropa para hombres</a>
-               </li>
-               <li>
-                   <a href="#">Oferta 2: 30% de descuento en ropa para mujeres</a>
-               </li>
-           </ul>
-        </section>
-      </div>
-
-      <!-- Contenido relacionado con el conentido principal de la pagina -->
-      <aside>
-        <h3>¿ Que dicen nuestros clientes ?</h3>
-        <p>"Me encanta la variedad de ropa que ofrecen. La calidad es excelente y el precio razonable."</p>
-        <p>"La entrega fue rapida y segura. Me gusto mucho la experiencia de compra en linea."</p>
-      </aside>
-      <br>
-      <!-- Pie de la pagina -->
-       <footer>
-        <p>Copyright 2024 Moda facil. Todos los derechos reservados</p>
+    <header id="cabecera">
+      <!-- Navegacion principal -->
+      <nav>
         <ul>
-            <li>
-                <a href="#">Terminos y condiciones</a>
-                <a href="#">Politica de privacidad</a>
-                <a href="#">Contacto</a>
-            </li>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#">Hombres</a>
+          </li>
+          <li>
+            <a href="#">Mujeres</a>
+          </li>
+          <li>
+            <a href="#">Niños</a>
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
         </ul>
-       </footer>
-</body>
+      </nav>
+    </header>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="miDivUnico">Este es un div con un id unico</div>
+
+    <div class="miDivConClase">Div 1 con clase</div>
+    <div class="miDivConClase">Div 2 con clase</div>
+    <div>
+      <button type="button" class="btn btn-primary d-block">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-light">Light</button>
+      <button type="button" class="btn btn-dark">Dark</button>
+
+      <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <!-- Contenido principal de la pagina. -->
+    <div class="container">
+      <!-- Seccion de contenido de principal -->
+      <section>
+        <h1>Ultimas tendencias en moda</h1>
+        <p>Descubre las ultimas tendencias en moda para hombres y mujeres</p>
+        <img src="img/ropa_hombres.jpg" alt="Imagen de ropa para hombres" />
+      </section>
+      <!-- Seccion secundaria -->
+      <section>
+        <h2>Ofertas especiales</h2>
+        <p>No te pierdas nuestras ofertas especiales</p>
+        <ul>
+          <li>
+            <a href="#">Oferta 1: 20% de descuento en ropa para hombres</a>
+          </li>
+          <li>
+            <a href="#">Oferta 2: 30% de descuento en ropa para mujeres</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Contenido relacionado con el conentido principal de la pagina -->
+    <aside>
+      <h3>¿ Que dicen nuestros clientes ?</h3>
+      <p>
+        "Me encanta la variedad de ropa que ofrecen. La calidad es excelente y
+        el precio razonable."
+      </p>
+      <p>
+        "La entrega fue rapida y segura. Me gusto mucho la experiencia de compra
+        en linea."
+      </p>
+    </aside>
+    <br />
+    <!-- Pie de la pagina -->
+    <footer>
+      <p>Copyright 2024 Moda facil. Todos los derechos reservados</p>
+      <ul>
+        <li>
+          <a href="#">Terminos y condiciones</a>
+          <a href="#">Politica de privacidad</a>
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+      <div class="row col-md-12 d-flex justify-content-center">
+          <div class="col-md-8 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>

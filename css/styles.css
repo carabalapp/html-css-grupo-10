@@ -119,3 +119,14 @@ footer ul li a {
 ul {
     list-style: none;
 }
+
+#miDivUnico {
+    background-color: #c15656;
+}
+
+.miDivConClase {
+    background-color: #440707;
+    color: #fff;
+    font-size: 50px;
+}
+
