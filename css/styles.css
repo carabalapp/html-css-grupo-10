@@ -55,7 +55,7 @@ section {
     margin: 20px;
     padding: 20px;
     background-color: #f7f7f7;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
 }
 
 
@@ -92,7 +92,7 @@ img {
     /* Objeto de ajuste */
     object-fit: cover;
     /* margen y relleno */
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 /* Esilos para el contenido relacionado */
