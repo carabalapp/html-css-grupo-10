@@ -1,0 +1,196 @@
+/*  Estilos generales para el documento */
+body {
+    /* Tipo de fuente y tamaño */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  /* Margen y relleno */
+  margin: 0;
+}
+
+/*  Estilos para la navegacion principal */
+.nav {
+    /* Fondo de color y texto en blanco */
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  justify-content: center;
+  
+}
+
+.nav__ul {
+    /* Margen y relleno */
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.nav__li {
+    /* Margen derecho para los elementos de la lista */
+    margin: 10px;
+}
+
+.nav__link {
+    /* Color de texto y sin subrayado */
+    color: #fff;
+    text-decoration: none;
+      
+    
+}
+
+section {
+    /* Color de fondo */
+    background-color: #f7f7f7;
+    /* Margen, relleno y sombra */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section__h1 {
+    color: black;
+    margin-bottom: 40px;
+    border-bottom:1px solid black;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform:uppercase;
+}
+
+.section__h2 {
+    color: green;
+}
+
+.container {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2, h3 {
+    /*  Tipo de fuente y tamaño */
+    font-family: Arial, sans-serif;
+    /* Margen y relleno */
+    margin-bottom: 10px;
+}
+
+h1 {
+    /* Tamaño de fuente */
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* Estilos para los parrafos */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.divisor-1 {
+    text-align: center;
+    box-shadow: 0 0 10px 0 #473838;
+    margin-bottom: 30px;
+}
+
+.img__ropa {
+    width: 400px;
+    height: 400px;
+    /* Objeto de ajuste */
+    object-fit: cover;
+    /* margen y relleno */
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.divisor-2 {
+    padding-top: 30px;
+    border: 1px solid black;
+    
+}
+
+.section__frase {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.img__logo {
+    height: 200px;
+}
+
+.img__modi {
+    height: 140px;
+}
+
+.section__oferta {
+    font-size: 30px;
+    color: red;
+}
+
+.section__ul {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.section__li {
+    margin: 10px;
+}
+
+.section__link {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Esilos para el contenido relacionado */
+aside {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul li a {
+    /* Color de texto y sin subrayado */
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#miDivUnico {
+    background-color: #c15656;
+}
+
+.miDivConClase {
+    background-color: #440707;
+    color: #fff;
+    font-size: 50px;
+}
+
